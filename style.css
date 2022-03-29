@@ -9,10 +9,13 @@ header{
     background-color: #1F2937;
 }
 
-header .container{
+.container{
     max-width: 1000px;
     margin: 0 auto;
     padding: 1rem;
+}
+
+header .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -21,7 +24,7 @@ header .container{
 #logo{
     font-size: 24px;
     color: #f9faf8;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 header ul{
@@ -37,3 +40,44 @@ header a{
     color: #e5e7eb;
     text-decoration: none;
 }
+
+.hero{
+    background-color: #1F2937;
+}
+
+.hero .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1em;
+}
+
+.hero .imgContainer{
+    height: 100px;
+    background-color: red;
+    flex: 1 1 100%;
+}
+
+.hero h1{
+    margin: 0;
+    padding: 0;
+
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+
+}
+
+.hero p{
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.hero button{
+    background-color: #3882F6;
+    color: #f9faf8;
+    font
+}
+
+.hero con
