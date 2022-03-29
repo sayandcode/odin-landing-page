@@ -5,14 +5,16 @@ body{
     font-family: "Roboto", sans-serif;
 }
 
-header{
-    background-color: #1F2937;
-}
-
 .container{
     max-width: 1000px;
     margin: 0 auto;
-    padding: 1rem;
+    padding: 1.5rem;
+}
+
+/* header */
+
+header{
+    background-color: #1F2937;
 }
 
 header .container{
@@ -41,21 +43,29 @@ header a{
     text-decoration: none;
 }
 
+/* hero */
+
 .hero{
     background-color: #1F2937;
+    padding-block: 3rem;
 }
 
 .hero .container{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 1em;
+    gap: 2rem;
+}
+
+.hero .description{
+    flex: 3 1 0;
 }
 
 .hero .imgContainer{
-    height: 100px;
-    background-color: red;
-    flex: 1 1 100%;
+    flex: 4 1 0;
+    background-color: hsl(0, 0%, 100%, 0.5);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero h1{
@@ -77,7 +87,19 @@ header a{
 .hero button{
     background-color: #3882F6;
     color: #f9faf8;
-    font
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 10px;
+    padding: 0.5em 2em;
+    border: none;
 }
 
-.hero con
+.hero button:hover{
+    transition: 0.3s;
+    background-color: hsl(217, 100%, 50%);
+}
+
+.hero button:active{
+    background-color: hsl(217, 91%, 90%);
+}
+
