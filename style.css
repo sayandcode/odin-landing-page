@@ -193,3 +193,11 @@ section.cta{
     background-color: #f9faf8;
     color: #3882F6;
 }
+
+/* footer */
+footer{
+    background-color: #1F2937;
+    color: #f9faf8;
+    text-align: center;
+    padding-block: 3em;
+}
